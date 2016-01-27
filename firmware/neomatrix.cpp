@@ -186,7 +186,7 @@ void Adafruit_NeoMatrix::drawPixel(int16_t x, int16_t y, uint16_t color) {
     }
   }
 
-  setPixelColor(tileOffset + pixelOffset, passThruFlag ? passThruColor : expandColor(color)););
+  setPixelColor(tileOffset + pixelOffset, passThruFlag ? passThruColor : expandColor(color));
 }
 
 void Adafruit_NeoMatrix::fillScreen(uint16_t color) {
